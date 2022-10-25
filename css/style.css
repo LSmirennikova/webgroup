@@ -1,4 +1,5 @@
 .page {
+    position: relative;
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
@@ -206,20 +207,44 @@ h2 {
     font-size: 36px;
     line-height: 45px;
     color: #646464;
+
 }
 
 .intro-aside>blockquote {
     margin: 0;
 }
 
-.block::before {
-    content: "\201C";
-
+.blockquote__1 {
+    position: absolute;
+    width: 28px;
+    height: 80px;
+    left: 1014px;
+    top: 533px;
+    font-size: 64px;
+    line-height: 80px;
+    margin: 0;
 }
 
-.block::after {
-    content: "\201D";
+.blockquote__2 {
+    position: absolute;
+    width: 129px;
+    height: 90px;
+    left: 1047px;
+    top: 542px;
+    font-size: 36px;
+    line-height: 45px;
+    margin: 0;
+}
 
+.blockquote__3 {
+    position: absolute;
+    width: 28px;
+    height: 80px;
+    left: 1169px;
+    top: 578px;
+    font-size: 64px;
+    line-height: 80px;
+    margin: 0;
 }
 
 .intro-text>strong {
